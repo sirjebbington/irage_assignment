@@ -10,7 +10,7 @@ db_port = 5433
 
 ami = "ami-0d3611c6f2adcd778"
 instance_type = "t2.micro"
-key_pair = "sshkey"
+key_pair = "sshkey_uat"
 
 db_engine = "postgres"
 db_instance_class = "db.t3.micro"
