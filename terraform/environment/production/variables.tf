@@ -1,7 +1,7 @@
 variable "environment" {}
 variable "vpc_cidr" {}
-variable "public_subnet_cidr" {}
-variable "private_subnet_cidr" {}
+variable "public_subnet_cidr" { type = list(string) }
+variable "private_subnet_cidr" { type = list(string) }
 variable "availability_zone" {}
 variable "allowed_ssh_cidr" {}
 variable "db_port" {}
